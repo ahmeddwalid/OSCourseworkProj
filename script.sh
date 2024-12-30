@@ -23,7 +23,7 @@ completed_courses=$(echo "$transcript_text" | grep -oE "[A-Z]{3,4}[0-9]{4} .* [A
 plan_courses=$(echo "$course_plan_text" | grep -oE "[A-Z]{3,4}[0-9]{4}")
 
 # Prepare output
-output_file="course_analysis.txt"
+output_file="CoursesOUTPUT.txt"
 {
     echo "=============================================="
     echo "           AHMED WALID LAB PROJECT"
