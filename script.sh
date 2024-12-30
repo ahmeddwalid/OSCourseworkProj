@@ -26,7 +26,7 @@ plan_courses=$(echo "$course_plan_text" | grep -oE "[A-Z]{3,4}[0-9]{4}")
 output_file="course_analysis.txt"
 {
     echo "=============================================="
-    echo "           ACADEMIC COURSE ANALYSIS"
+    echo "           AHMED WALID LAB PROJECT"
     echo "          Created on $(date '+%Y-%m-%d')"
     echo "=============================================="
     echo
